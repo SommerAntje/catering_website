@@ -1,0 +1,33 @@
+/**IE 8 style css**/
+/****Navigation****/
+.ie8 #nav li.active a,
+.ie8 #nav li a:hover{font-size:11px; font-weight:bolder;}
+/**border gallery für alle Galerien**/
+.ie8 .rubrik img:first-child + a img {padding:7px; border:solid 1px #ccc;}
+/**Bildunterschrift für alle Galerien**/
+.ie8 .gallery p {width:400px; margin: 10px 0 0 0;}
+.ie8 #page_Locations > p{width:445px; left:500px; top: 95px; position:absolute;}
+.ie8 #page_Food > p{width: 500px; text-align: left;}
+.ie8 .gallery ul {padding:7px; border:solid 1px #ccc;}
+.ie8 #trendy p{top:100px;}
+.ie8 #page_Beverages > .gallery_menu{left:405px; top:138px;}
+.ie8 #page_Beverages > .slide_menu{top:140px;}
+.ie8 #page_Privat > div + div > img{margin-top:-145px;}
+/***page_Kunden***/
+.ie8 #page_Kunden div p{color:#333;}
+.ie8 #page_Team .gallery ul{border:solid 1px #ccc; padding:7px;}
+.ie8 #cuisine > div > img{width:280px; height:144px; top:120px; left:560px; }
+/***Kontaktformular***/
+.ie8 #page_Kontakt > form fieldset{font-size: 11px; font-weight:bold; border:solid 1px #ccc;}
+.ie8 #page_Kontakt div + div + div.select{ width:300px;} 
+.ie8 #page_Kontakt div + div + div + div.select label:first-child{ margin: 0 10px 0 0 ;}
+.ie8 #page_Kontakt .select_right{width:217px;}
+/**IE 9 style css**/
+.ie9 .gallery ul{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);}
+.ie9 .rubrik img:first-child + a img{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);}
+.ie9 #page_Kontakt > form fieldset{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);}
+/**IE allg.**/
+.ie #nav li a,
+	.ie .slide_menu li a{outline:none;}
+/*body *{zoom:1;}*/
+ 
