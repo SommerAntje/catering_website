@@ -51,10 +51,10 @@ p{margin: 0 0 15px 0; font:13px 1.2em; text-align: left;}
 #beverages{position:relative; overflow:hidden; height:508px; width:1016px; top:200px;}
 #beverages > ul > li > p{position:absolute; width:300px; right:140px; top:200px;}
 #beverages .gallery > ul p{left:330px;}
-/**Beverage Rubrik alkoholic drinks cocktails**/
+/**Beverage alkoholic drinks cocktails**/
 #drinks > .gallery > ul, #espresso > .gallery > ul, #trendy > .gallery > ul{width:305px; height:405px;}
 #drinks > .gallery > ul p {top:362px;}
-/**Beverage Rubrik water juice trendy**/
+/**Beverage water juice trendy**/
 #drinks > div > img{position:absolute; width:233px; height:75px; right:220px; top:3px;}
 #trendy > div > img{position:absolute; width:249px; height:67px; right:200px; top:3px;}
 #espresso > div > img{position:absolute; width:168px; height:76px; right:285px; top:3px;}
